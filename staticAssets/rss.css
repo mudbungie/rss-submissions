@@ -1,0 +1,107 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+body{
+font-family:'Raleway',sans-serif;
+}
+img#logo{
+margin-left:90px
+}
+div#first{
+width:50%;
+height:auto;
+margin:50px auto 0;
+padding:50px;
+background-color:#fbfbfb;
+color: #000;
+border:2px solid #FFf;
+border-radius:40px 0 40px 0
+}
+label{
+font-size:15px;
+font-weight:700
+}
+input#title{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+/*
+margin-top:1px;
+margin-bottom:1px;
+padding-left:1px; */
+
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 2px;
+/* For I.E */
+-moz-box-shadow:0 0 2px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+
+input#description{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+box-shadow:0 0 2px;
+-webkit-box-shadow:0 0 2px;
+/* For I.E */
+-moz-box-shadow:0 0 2px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#keywords{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+
+box-shadow:0 0 2px;
+-webkit-box-shadow:0 0 2px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#submit {
+background-color:#cc7a66;
+border-radius:5px;
+border:none;
+padding:10px 25px;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+margin-left:120px
+}
+input#submit:hover{
+background-color:#FF9980;
+}
+input#commit {
+background-color:#ADFF2F;
+border-radius:5px;
+border:none;
+padding:10px 25px;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+margin-left:120px
+}
+input#commit:hover{
+background-color:#FFff00;
+}
+.btn-warning1 {
+  color: #ffffff;
+  background-color: #00b2de;
+  border-color: #eea236;
+}
+.btn-warning1:hover{
+    color: #ffffff;
+background-color:#00b2de;
+
+}
